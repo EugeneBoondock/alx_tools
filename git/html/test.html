@@ -3,11 +3,18 @@
     <head>
         <meta charset="utf-8" />
         <title> New Stuff</title>
+        <meta name="description" content="This is the official Boondocks websites, you may find the Guilds database and all the projects we're working on."/>
+
     </head>
     <body>
         <h1>
-        This is merely a test!
+        Welcome to the <b> Boondocks</b>
         </h1>
+        <h4> Enjoy our Anthem made by AI</h4>
+        <audio controls autoplay loop>
+            <source src="music.mp3" type="audio/mpeg"/>
+            <source src="music.wav" type="audio/wav"/>
+        </audio>
         <br>
         <p class="description">
             You have to fully understand <a href="https://earth2.io/" title="Earth2" target="_blank"><strong> Earth2 </strong></a> before anything else...
@@ -22,6 +29,7 @@
             <li>Ether</li>
         </ul>
 
+        <fieldset>
         <table>
 
             <tr>
@@ -44,7 +52,7 @@
 
             </tr>
         </table>
-
+        </fieldset>
         <p>
             In order to understand the concepts; here are the links:
             <br>
@@ -57,6 +65,8 @@
     </body>
     <!-- Testing out comments in html-->
     <body>
+    <fieldset>
+        <legend> User Info</legend>
         <form action="" method="">
             <label for="firstname"> First Name: </label>
             <input type="text" id="firstname" name="" size="5"/>
@@ -65,7 +75,8 @@
             <label for="lastname"> Last Name:</label>
             <input type="text" id="lastname" name="" size="5"/>
         </form>
-        <p> <img src="img.png" width="150" height="150"/> </p>
+    </fieldset>
+        <p> <img src="img.png" title="https://app.earth2.io/#thegrid/4d195e8b-b7af-4fc1-a5f2-7427c7eabe83" width="150" height="150"/> </p>
     
         <p> Tell us about yourself: </p><textarea rows="5" cols="20"></textarea></br>
         <input type="submit" value="Submit >>">
@@ -97,6 +108,11 @@
 
         <p> How many tiles do you have? <input type="number" min="0" max="2000"> <input type="submit" value="Enter"> </p>
         <p> How many properties do you have? <input type="number" min="0" max="100"> <input type="submit" value="Enter"></p>
+        <p> When is your birthday?</p>
+        <input type="date" name="day">
+        <p> How many days since your last Earth2 login?</p>
+        <input type="number" name="numdays" min="1" max="365">
+
 
     </body>
 
